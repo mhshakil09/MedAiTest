@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MedAiTest</string>
+    <string name="homepage">Home</string>
+    <string name="profile">Profile</string>
+    <string name="profile_page">Profile Page</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="country">Country</string>
+    <string name="division">Division</string>
+    <string name="district">District</string>
+    <string name="type">Type</string>
+
+    <string-array name="select">
+        <item>Select</item>
+    </string-array>
+</resources>

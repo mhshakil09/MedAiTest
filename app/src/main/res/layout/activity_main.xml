@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradiant"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/custom_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_home_icon" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:text="@string/homepage"
+            android:textColor="@color/white"
+            android:textSize="@dimen/actionbar_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/double_size">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/profilePageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/oval_rounded_shadow"
+                android:textColor="@color/black"
+                android:layout_margin="30dp"
+                android:text="@string/profile_page" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

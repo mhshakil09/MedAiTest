@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradiant"
+    tools:context=".ui.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/custom_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back_arrow" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:id="@+id/pageInfoTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Complete \na profile"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/brandFontSize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/nameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/nameTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Name:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3">
+
+                        <EditText
+                            android:id="@+id/firstNameET"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:hint="@string/first_name"
+                            android:textSize="@dimen/hintFontSize"
+                            android:background="@drawable/oval_rounded_border"
+                            android:paddingStart="16dp" />
+
+                        <EditText
+                            android:id="@+id/lastNameET"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:hint="@string/last_name"
+                            android:textSize="@dimen/hintFontSize"
+                            android:background="@drawable/oval_rounded_border"
+                            android:paddingStart="16dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/countryLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/countryTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Country:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/oval_rounded_border"
+                        android:layout_weight="3">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/spinnerCountry"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:entries="@array/select"
+                            android:overlapAnchor="false"
+
+                            android:spinnerMode="dropdown" />
+
+<!--                        <Spinner-->
+<!--                            android:id="@+id/menopauseSpinner"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="32dp"-->
+<!--                            android:layout_weight="2"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textColor="@color/primaryFont"-->
+<!--                            android:textSize="@dimen/regularFontSize"-->
+<!--                            android:entries="@array/select"/>-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/divisionLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/divisionTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Division:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/oval_rounded_border"
+                        android:layout_weight="3">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/spinnerDivision"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:entries="@array/select"
+                            android:overlapAnchor="false"
+
+                            android:spinnerMode="dropdown" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/districtLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/districtTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="District:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/oval_rounded_border"
+                        android:layout_weight="3">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/spinnerDistrict"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:entries="@array/select"
+                            android:overlapAnchor="false"
+
+                            android:spinnerMode="dropdown" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/homeAddressLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/homeAddressTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Home Address:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <EditText
+                        android:id="@+id/homeAddressET"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_weight="3"
+                        android:hint="@string/type"
+                        android:textSize="@dimen/hintFontSize"
+                        android:background="@drawable/oval_rounded_border"
+                        android:paddingStart="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/postCodeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/postCodeTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Post code:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <EditText
+                        android:id="@+id/postCodeET"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_weight="3"
+                        android:hint="@string/type"
+                        android:textSize="@dimen/hintFontSize"
+                        android:background="@drawable/oval_rounded_border"
+                        android:paddingStart="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobileNumberLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mobileNumberTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:text="Mobile Number:"
+                        android:textColor="#574D4D"
+                        android:textSize="@dimen/regularFontSize" />
+
+                    <EditText
+                        android:id="@+id/mobileNumberET"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_weight="3"
+                        android:hint="@string/type"
+                        android:textSize="@dimen/hintFontSize"
+                        android:background="@drawable/oval_rounded_border"
+                        android:paddingStart="16dp" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submitBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:background="@drawable/oval_rounded_shadow"
+                    android:textColor="@color/black"
+                    android:layout_margin="30dp"
+
+                    android:elevation="10dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

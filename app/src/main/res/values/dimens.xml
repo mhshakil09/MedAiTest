@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="double_size">16dp</dimen>
+    <dimen name="std_size">8dp</dimen>
+    <dimen name="actionbar_text">15sp</dimen>
+    <dimen name="tiny_size">4dp</dimen>
+    <dimen name="card_translation_size">6dp</dimen>
+    <dimen name="card_image_size">75dp</dimen>
+    <dimen name="primaryFontSize">16sp</dimen>
+    <dimen name="hintFontSize">11sp</dimen>
+    <dimen name="regularFontSize">12sp</dimen>
+    <dimen name="listFontSize">14sp</dimen>
+    <dimen name="brandFontSize">20sp</dimen>
+    <dimen name="symptomFontSize">24sp</dimen>
+</resources>

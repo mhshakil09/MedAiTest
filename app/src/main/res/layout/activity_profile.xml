@@ -67,6 +67,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="6"
                         android:text="Name:"
+                        android:textStyle="bold"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
 
@@ -78,7 +79,7 @@
                         <EditText
                             android:id="@+id/firstNameET"
                             android:layout_width="match_parent"
-                            android:layout_height="32dp"
+                            android:layout_height="@dimen/ovalHeight"
                             android:layout_marginEnd="10dp"
                             android:layout_weight="1"
                             android:hint="@string/first_name"
@@ -89,7 +90,7 @@
                         <EditText
                             android:id="@+id/lastNameET"
                             android:layout_width="match_parent"
-                            android:layout_height="32dp"
+                            android:layout_height="@dimen/ovalHeight"
                             android:layout_marginStart="10dp"
                             android:layout_weight="1"
                             android:hint="@string/last_name"
@@ -115,6 +116,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="6"
                         android:text="Country:"
+                        android:textStyle="bold"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
 
@@ -128,8 +130,7 @@
                         <androidx.appcompat.widget.AppCompatSpinner
                             android:id="@+id/spinnerCountry"
                             android:layout_width="match_parent"
-                            android:layout_height="32dp"
-                            android:entries="@array/select"
+                            android:layout_height="@dimen/ovalHeight"
                             android:overlapAnchor="false"
 
                             android:spinnerMode="dropdown" />
@@ -137,7 +138,7 @@
 <!--                        <Spinner-->
 <!--                            android:id="@+id/menopauseSpinner"-->
 <!--                            android:layout_width="match_parent"-->
-<!--                            android:layout_height="32dp"-->
+<!--                            android:layout_height="@dimen/ovalHeight"-->
 <!--                            android:layout_weight="2"-->
 <!--                            android:gravity="center"-->
 <!--                            android:textColor="@color/primaryFont"-->
@@ -163,6 +164,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="6"
+                        android:textStyle="bold"
                         android:text="Division:"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
@@ -177,8 +179,7 @@
                         <androidx.appcompat.widget.AppCompatSpinner
                             android:id="@+id/spinnerDivision"
                             android:layout_width="match_parent"
-                            android:layout_height="32dp"
-                            android:entries="@array/select"
+                            android:layout_height="@dimen/ovalHeight"
                             android:overlapAnchor="false"
 
                             android:spinnerMode="dropdown" />
@@ -200,6 +201,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="6"
+                        android:textStyle="bold"
                         android:text="District:"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
@@ -214,8 +216,7 @@
                         <androidx.appcompat.widget.AppCompatSpinner
                             android:id="@+id/spinnerDistrict"
                             android:layout_width="match_parent"
-                            android:layout_height="32dp"
-                            android:entries="@array/select"
+                            android:layout_height="@dimen/ovalHeight"
                             android:overlapAnchor="false"
 
                             android:spinnerMode="dropdown" />
@@ -237,6 +238,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="6"
+                        android:textStyle="bold"
                         android:text="Home Address:"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
@@ -244,7 +246,7 @@
                     <EditText
                         android:id="@+id/homeAddressET"
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
+                        android:layout_height="@dimen/ovalHeight"
                         android:layout_weight="3"
                         android:hint="@string/type"
                         android:textSize="@dimen/hintFontSize"
@@ -267,6 +269,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="6"
+                        android:textStyle="bold"
                         android:text="Post code:"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
@@ -274,7 +277,7 @@
                     <EditText
                         android:id="@+id/postCodeET"
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
+                        android:layout_height="@dimen/ovalHeight"
                         android:layout_weight="3"
                         android:hint="@string/type"
                         android:textSize="@dimen/hintFontSize"
@@ -297,6 +300,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="6"
+                        android:textStyle="bold"
                         android:text="Mobile Number:"
                         android:textColor="#574D4D"
                         android:textSize="@dimen/regularFontSize" />
@@ -304,7 +308,7 @@
                     <EditText
                         android:id="@+id/mobileNumberET"
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
+                        android:layout_height="@dimen/ovalHeight"
                         android:layout_weight="3"
                         android:hint="@string/type"
                         android:textSize="@dimen/hintFontSize"

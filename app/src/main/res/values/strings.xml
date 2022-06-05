@@ -3,16 +3,216 @@
     <string name="homepage">Home</string>
     <string name="profile">Profile</string>
     <string name="profile_page">Profile Page</string>
-    <string name="submit">Submit</string>
+<!--    <string name="submit">Submit</string>-->
     <string name="next">Next</string>
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
-    <string name="country">Country</string>
-    <string name="division">Division</string>
-    <string name="district">District</string>
-    <string name="type">Type</string>
+<!--    <string name="country">Country</string>-->
+<!--    <string name="division">Division</string>-->
+<!--    <string name="district">District</string>-->
+<!--    <string name="type">Type</string>-->
 
     <string-array name="select">
         <item>Select</item>
     </string-array>
+
+    <array name="country_array">
+        <item>Select</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Japan</item>
+    </array>
+
+    <array name="division_array">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>CTG</item>
+        <item>Khulna</item>
+    </array>
+
+    <array name="district_array">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Narayangonj</item>
+        <item>Tangail</item>
+        <item>Cumilla</item>
+        <item>CTG</item>
+    </array>
+
+
+
+
+    <string name="med_ai">MED AI</string>
+    <string name="loading">লোডিং হচ্ছে......</string>
+    <string name="success">সফল হয়েছে</string>
+    <string name="failed">অকার্যকৃত হয়েছে</string>
+    <string name="something_wrong">কিছু একটি সমস্যা হয়েছে!</string>
+    <string name="internet">ইন্টারনেট</string>
+    <string name="turn_on_data">ইন্টারনেট কানেকশন নেই, প্রথমে ডাটা/ওয়াইফাই কানেক্ট করে নিন।</string>
+    <string name="mobile_data">মোবাইল ডাটা</string>
+    <string name="wifi">ওয়াইফাই</string>
+    <string name="login">লগইন</string>
+    <string name="login_page_message">আপনার রেজিস্টারকৃত মোবাইল নাম্বার দিয়ে লগিন করুন</string>
+    <string name="enter_your_mobile_number">মোবাইল নাম্বার দিন</string>
+    <string name="enter_your_password">আপনার পাসওয়ার্ড দিন</string>
+    <string name="new_patient">নতুন রোগী</string>
+    <string name="health_record">স্বাস্থ্য রেকর্ড</string>
+    <string name="new_doc_reg">নতুন ডাক্তার নিবন্ধন</string>
+    <string name="symptom_checker">রোগীর উপসর্গ চেকার</string>
+    <string name="feedback">ফিডব্যাক</string>
+    <string name="dash_logo_desc">ড্যাশবোর্ড আইকন</string>
+    <string name="_1st_page">প্রথম পৃষ্ঠা</string>
+    <string name="name">নাম</string>
+    <string name="lastName">নামের শেষ অংশ</string>
+    <string name="firstName">নামের প্রথম অংশ</string>
+    <string name="country">দেশ</string>
+    <string name="division">বিভাগ</string>
+    <string name="district">জেলা</string>
+    <string name="home_address">বাড়ির ঠিকানা</string>
+    <string name="post_code">পোষ্ট কোড</string>
+    <string name="mobile_number">মোবাইল নাম্বার</string>
+    <string name="next_page">পরের পৃষ্ঠা</string>
+    <string name="_2nd_page">দ্বিতীয় পৃষ্ঠা</string>
+    <string name="sex">সেক্স</string>
+    <string name="age">বয়স</string>
+    <string name="area">এলাকা</string>
+    <string name="marital_status">বৈবাহিক অবস্থা</string>
+    <string name="education">শিক্ষা</string>
+    <string name="occupation">পেশা</string>
+    <string name="ethnicity">এথনিসিটি/জাতীয়তা</string>
+    <string name="monthly_expense">মাসিক ব্যয়</string>
+    <string name="submit">জমা দিন</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="don_t_know">জানি না</string>
+    <string name="tobacco">তামাক সেবন</string>
+    <string name="smoking">ধূমপান</string>
+    <string name="covid19_attack">কোভিড আক্রান্ত হয়েছেন?</string>
+    <string name="vaccinated">ভ্যাকসিন নিয়েছেন?</string>
+    <string name="high_bp">উচ্চ রক্তচাপ</string>
+    <string name="diabetes">ডায়াবেটিস</string>
+    <string name="heart_disease">হৃদরোগ</string>
+    <string name="heart_disease_on_family">পরিবারে হৃদরোগের উপস্থিতি</string>
+    <string name="diabetes_on_family">পরিবারে ডায়াবেটিসের উপস্থিতি</string>
+    <string name="addiction">নেশাদ্রব্য গ্রহন করেন?</string>
+    <string name="yes_en">Yes</string>
+    <string name="no_en">No</string>
+    <string name="dont_know_en">Don\'t Know</string>
+    <string name="allergy">এলার্জি</string>
+    <string name="food">খাদ্য</string>
+    <string name="material">পদার্থ</string>
+    <string name="dust">ধুলা</string>
+    <string name="insects">পোকা-মাকড়</string>
+    <string name="other">অন্যান্য</string>
+    <string name="write_other">এখানে অন্যান্য লিখুন</string>
+    <string name="regular_medicine">নিয়মিত ঔষধ</string>
+    <string name="nitroglycerin">নাইট্রোগ্লিসারিন</string>
+    <string name="glucose">গ্লুকোজ</string>
+    <string name="insulin">ইনসুলিন</string>
+    <string name="drug">ড্রাগ</string>
+    <string name="inhaler">ইনহেলার</string>
+    <string name="epi_pen">এপি-পেন</string>
+    <string name="menopause">মেনোপজ</string>
+    <string name="fever">জ্বর</string>
+    <string name="type_your_symptom_here">আপনার উপসর্গ লিখুন</string>
+    <string name="timeline">সময়কাল</string>
+    <string name="temperature">তাপমাত্রা</string>
+    <string name="gap_duration">কত সময় পর পর?</string>
+    <string name="pain">ব্যাথা</string>
+    <string name="pain_level">ব্যাথার মাত্রা</string>
+    <string name="pain_type">ব্যাথার ধরন</string>
+    <string name="pain_selection">নির্বাচন করুন</string>
+    <string name="pain_place">ব্যাথার স্থান</string>
+    <string name="area_of_pain">ব্যাপ্তি বা শুরু</string>
+    <string name="most_pain_time">কখন গুরুতর হয়</string>
+    <string name="cough">কাশি</string>
+    <string name="cough_type">কাশির ধরন</string>
+    <string name="start_time">কিসে শুরু হয়</string>
+    <string name="_3rd_page">তৃতীয় পৃষ্ঠা</string>
+    <string name="follow_up">ফলোআপ</string>
+    <string name="dashboard">ড্যাশবোর্ড</string>
+    <string name="ok">ওকে</string>
+    <string name="patient_registration_success">নতুন রোগী নিবন্ধিত হয়েছে!</string>
+    <string name="check_user_message">রোগীর রেজিস্টারকৃত মোবাইল নাম্বার দিন</string>
+    <string name="check">চেক করুন</string>
+    <string name="please_enter_mobile">Please Enter Mobile Number!</string>
+    <string name="please_enter_both"><![CDATA[Please Enter Both Mobile & Password!]]></string>
+    <string name="doctor_info">ডাক্তার ইনফো</string>
+    <string name="hospital_name">হাসপাতালের নাম</string>
+    <string name="doctor_id">ডাক্তার</string>
+    <string name="sickness_type">নির্নীত রোগ</string>
+    <string name="sick">রোগ</string>
+    <string name="id">আইডি</string>
+    <string name="save_and_submit">জমা দিন এবং শেষ করুন</string>
+    <string name="add_medicine">ঔষুধ যোগ করুন</string>
+    <string name="medicine">ঔষুধ</string>
+    <string name="time">সময়</string>
+    <string name="day">দিন</string>
+    <string name="difference">ব্যাবধান</string>
+    <string name="delete_medicine">Delete Medicine</string>
+    <string name="medicine_name">ঔষুধের নাম</string>
+    <string name="morning">সকাল</string>
+    <string name="noon">দুপুর</string>
+    <string name="night">রাত</string>
+    <string name="four_hours">৪ ঘন্টা</string>
+    <string name="eight_hours">৮ ঘন্টা</string>
+    <string name="six_hours">৬ ঘন্টা</string>
+    <string name="twelve_hours">১২ ঘন্টা</string>
+    <string name="twenty_four_hours">২৪ ঘন্টা </string>
+    <string name="total_days">কতদিন</string>
+    <string name="number">সংখ্যা</string>
+    <string name="add_prescription">প্রেস্ক্রিপশন নিবন্ধন</string>
+    <string name="health_record_success">হেলথ রেকর্ড সফলভাবে জমা হয়েছে!</string>
+    <string name="information_saved">তথ্য সফলভাবে নিবন্ধিত হয়েছে।</string>
+    <string name="add_diagnostic">ডায়াগনস্টিক যোগ করুন</string>
+    <string name="type_diagnostic_name">ডায়াগনস্টিকের নাম লিখুন</string>
+    <string name="exit">এক্সিট</string>
+    <string name="alert">এলার্ট</string>
+    <string name="do_you">আপনি কি </string>
+    <string name="remove_this_item"> মুছে ফেলতে চান?</string>
+    <string name="test_list">টেস্টের তালিকা</string>
+    <string name="x_ray">X-Ray</string>
+    <string name="write_result">ফলাফল লিখুন</string>
+    <string name="result">ফলাফল</string>
+    <string name="upload_image">ছবি আপলোড করুন</string>
+    <string name="icon">icon</string>
+    <string name="need_photo_permission">ছবি আপলোড করার জন্য ক্যামেরা পারমিশন জরুরী১</string>
+    <string name="do_you_want_to_remove_image">আপনি কি এই ছবিটি মুছে ফেলতে চান?</string>
+    <string name="limit_is_1_image">১ টির বেশি ছবি আপলোড করা যাবে না। দয়া করে অপ্রয়োজনীয় ছবি মুছে দিন।</string>
+    <string name="limit_is_5_image">৫ টির বেশি ছবি আপলোড করা যাবে না। দয়া করে অপ্রয়োজনীয় ছবি মুছে দিন।</string>
+    <string name="before">আগে</string>
+    <string name="after">পরে</string>
+    <string name="food_intake">খাওয়ার আগে/পরে</string>
+    <string name="patient_checking">রোগী অনুসন্ধান</string>
+    <string name="patient_height_weight">রোগীর উচ্চতা এবং ওজন লিখুন</string>
+    <string name="height_feet">উচ্চতা (ফুট)</string>
+    <string name="height_inch">উচ্চতা (ইঞ্চি)</string>
+    <string name="weight_kg">ওজন (কেজিতে)</string>
+    <string name="patient_info">রোগীর তথ্য</string>
+    <string name="patient_icon">Patient Icon</string>
+    <string name="add_new_patient">নতুন রোগী যোগ করুন</string>
+    <string name="no_answer_found">দয়া করে উত্তর যোগ করুন</string>
+    <string name="required_field">এই অংশ পূরণ করতে হবে।</string>
+    <string name="no_medicine_added">জমা দেয়ার জন্য আগে ওষুধ যোগ করুন।</string>
+    <string name="visit_info">ভিজিটের তথ্য</string>
+    <string name="previous_symptoms">আগের উপসর্গ সমূহ</string>
+    <string name="previous_symptoms_instruction">কোন উপসর্গ না থাকলে বাদ দিন।</string>
+    <string name="exit_message">আপনি কি অ্যাপ বন্ধ করতে চান?</string>
+    <string name="back_press_message">ব্যাকে গেলে সমস্ত তথ্য মুছে যাবে।</string>
+    <string name="close_message">বন্ধ করুন</string>
+    <string name="write_medicine_name">ওষুধের নাম লিখুন</string>
+    <string name="test_details">টেস্টের বিবরণ</string>
+    <string name="new_symptom">নতুন উপসর্গ</string>
+    <string name="add_if_new">নতুন উপসর্গ থাকলে যোগ করুন</string>
+    <string name="before_eat">খাওয়ার আগে</string>
+    <string name="medicine_status">কোন ঔষধ কি পরিমান সেবন করেছেন তার তথ্য দিন</string>
+    <string name="diagnostic_test_status">আপনার ডায়াগনস্টিক টেস্ট করিয়েছিন কিনা বলুন</string>
+    <string name="fid_not_found">ফলোআপ আইডি পাওয়া যায়নি</string>
+    <string name="vid_not_found">ভিজিট আইডি পাওয়া যায়নি</string>
+    <string name="collecting_list_from_server">সার্ভার থেকে লিস্ট সংগ্রহ করা হচ্ছে ...</string>
+    <string name="type">লিখুন</string>
+    <string name="write_name">নাম লিখুন</string>
+    <string name="invalid_operator">অপারেটর খুঁজে পাওয়া যায়নি</string>
 </resources>

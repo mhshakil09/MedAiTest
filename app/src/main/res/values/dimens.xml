@@ -12,4 +12,5 @@
     <dimen name="listFontSize">14sp</dimen>
     <dimen name="brandFontSize">20sp</dimen>
     <dimen name="symptomFontSize">24sp</dimen>
+    <dimen name="ovalHeight">28dp</dimen>
 </resources>
